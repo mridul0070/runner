@@ -72,7 +72,15 @@ document.addEventListener("click", function(event) {
 
 })
 
+addEventListener("touchstart", function(event){
 
+changeOrientation(orientation);
+		if (!moveFlag) {
+			move();  
+		}
+
+}
+	)
 
 
 
